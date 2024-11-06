@@ -1,0 +1,55 @@
+.header-bg{
+    background-color: rgb(2, 55, 201);
+}
+
+.header{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+}
+
+.logo img{
+    height: 4rem;
+    grid-row: span 2;
+    transform: rotateX('180');
+}
+
+.img_nome{
+    display: grid;
+    align-content: center;
+    gap: 20px;
+
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+
+.header-menu a{
+    display: inline-block;
+    padding: 16px 0px;
+    position: relative;
+}
+
+.header-menu a::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+}
