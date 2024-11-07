@@ -21,7 +21,6 @@
 .logo img{
     height: 4rem;
     grid-row: span 2;
-    transform: rotateX('180');
 }
 
 .img_nome{

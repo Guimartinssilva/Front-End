@@ -1,0 +1,31 @@
+.introducao-bg{
+    background-color: rgb(241, 241, 241);
+}
+
+.introducao{
+    display: flex;
+}
+
+.introducao-conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao-conteudo a{
+    display: inline-block;
+    padding: 16px 32px;
+    max-width: max-content;
+    background: linear-gradient(rgb(2, 55, 201), red);
+    color: rgb(241, 241, 241);
+    border-radius: 4px;
+    justify-content: end;
+}
+
+.introducao img{
+    margin: 30px;
+    margin-left: 100px;
+    width: 300px;
+    height: 500px;
+}
